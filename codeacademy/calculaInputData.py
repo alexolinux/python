@@ -1,12 +1,12 @@
-print 'Welcome to the Pig Latin Translator!'
+print('Welcome to the Pig Latin Translator!')
 
 # Start coding here!
-original = raw_input("Enter a word: \n")
+original = input("Enter a word: \n")
 content = original.title()
 #content = len(original)
 
 if len(content) > 0:
-  print "Conteudo '%s' existente!" % content
-  print "Tamanho: \n %i" % len(content)
+  print("Conteudo '%s' existente!" % content)
+  print("Tamanho: \n %i" % len(content))
 else:
-	print "Conteudo Vazio."
+	print("Conteudo Vazio.")
