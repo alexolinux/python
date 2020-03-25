@@ -25,15 +25,15 @@ def average(numbers):
 
 students = [ lloyd, alice, tyler ]
 for i in students:
-  print 'Homework: '
-  print i["homework"]
-  print 'Media: ', average(i["homework"])
-  print
-  print 'Quizzes: '
-  print i["quizzes"]
-  print 'Media: ', average(i["quizzes"])
-  print
-  print 'Tests: '
-  print i["tests"]
-  print 'Media: ', average(i["tests"])
-  print '-----------------------------'
+  print('Homework: ')
+  print(i["homework"])
+  print('Media: ', average(i["homework"]))
+  print()
+  print('Quizzes: ')
+  print(i["quizzes"])
+  print('Media: ', average(i["quizzes"]))
+  print()
+  print('Tests: ')
+  print(i["tests"])
+  print('Media: ', average(i["tests"]))
+  print('-----------------------------')
