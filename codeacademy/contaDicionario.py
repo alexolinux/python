@@ -4,7 +4,7 @@
 # loop to access the dictionary value of each character in the given word.
 # Since we are given a word as a string, we can iterate through it using a for each loop, 
 # where each time the loop loops, the loop variable becomes the next character in the string.
-# We’re also given a dictionary where each key is an alphabetical letter corresponding with a value. 
+# Were also given a dictionary where each key is an alphabetical letter corresponding with a value.
 # Convenient!
 # Inside of the loop, we can access the value stored in a key by writing dictionary_name[key_name]. 
 # That will give us the value of the character, which we can add to some total and return.
@@ -17,7 +17,7 @@ score = {"a": 1, "c": 3, "b": 3, "e": 1, "d": 2, "g": 2,
          "r": 1, "u": 1, "t": 1, "w": 4, "v": 4, "y": 4, 
          "x": 8, "z": 10}
          
-def scrabble_score(word):
+def scrabble_score(word: object) -> object:
   word = word.lower()
   total = 0
   
@@ -27,4 +27,4 @@ def scrabble_score(word):
         total = total + score[char]
   return total
 
-print scrabble_score("pie")
+print(scrabble_score("alex"))
