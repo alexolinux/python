@@ -11,4 +11,4 @@ def fizz_count(x):
 # Lista para ser utilizada.
 str_list = ["pig", "fizz", "cat", "bat", "fizz", "bitch"]
 cata_fizz = fizz_count(str_list)
-print 'Total da String FIZZ: ', cata_fizz, 'encontrado(s).'
+print('Total da String fizz: ', cata_fizz, 'encontrado(s).')
