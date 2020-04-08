@@ -51,5 +51,5 @@ def get_class_average(class_list):
 students = [lloyd, alice, tyler]
 
 avg = get_class_average(students)
-print(avg)
+print("Media da Classe: %.2f " % avg)
 print(get_letter_grade(avg))
