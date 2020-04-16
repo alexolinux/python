@@ -9,14 +9,13 @@
 # Inside of the loop, we can access the value stored in a key by writing dictionary_name[key_name]. 
 # That will give us the value of the character, which we can add to some total and return.
 
-# Funcao que retorna valor total de elementos de uma palavra dada como entrada.
-
-score = {"a": 1, "c": 3, "b": 3, "e": 1, "d": 2, "g": 2, 
+score = {"a": 1, "c": 3, "b": 3, "e": 1, "d": 2, "g": 2,
          "f": 4, "i": 1, "h": 4, "k": 5, "j": 8, "m": 3, 
          "l": 1, "o": 1, "n": 1, "q": 10, "p": 3, "s": 1, 
          "r": 1, "u": 1, "t": 1, "w": 4, "v": 4, "y": 4, 
          "x": 8, "z": 10}
-         
+
+# Funcao que retorna valor total de elementos de uma palavra dada como entrada.
 def scrabble_score(word: object) -> object:
   word = word.lower()
   total = 0
@@ -27,4 +26,4 @@ def scrabble_score(word: object) -> object:
         total = total + score[char]
   return total
 
-print(scrabble_score("alex"))
+print(scrabble_score("Alex"))
