@@ -8,4 +8,4 @@ def average(a1, a2):
   av = (a1 + a2) / 2
   return av
 
-print('Student {} obtained the following average: {:.2f}'.format(student, average(a1, a2)))
+print('Student {} obtained the following average: {:.1f}'.format(student, average(a1, a2)))
